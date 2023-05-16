@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Tomorrow Ready</string>
+
+    <string name="plan">Preparedness Plan</string>
+    <string name="updates">Monitoring Updates</string>
+    <string name="donation">Donation Drive</string>
+    <string name="hotline">Emergency Hotline</string>
+
+</resources>
