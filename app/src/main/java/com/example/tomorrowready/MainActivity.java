@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button donationButton;
+    private Button compassButton;
     private Button hotlineButton;
     private Button planButton;
     private Button updatesButton;
@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //donation drive button
-        donationButton = (Button) findViewById(R.id.btn_donation);
-        donationButton.setOnClickListener(new OnClickListener() {
+        //compass tool button
+        compassButton = (Button) findViewById(R.id.btn_compass);
+        compassButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DonationDrive.class);
+                Intent intent = new Intent(MainActivity.this, CompassTool.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         hotlineButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DonationDrive.class);
+                Intent intent = new Intent(MainActivity.this, CompassTool.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         planButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DonationDrive.class);
+                Intent intent = new Intent(MainActivity.this, CompassTool.class);
                 startActivity(intent);
             }
         });
@@ -55,11 +55,10 @@ public class MainActivity extends AppCompatActivity {
         updatesButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DonationDrive.class);
+                Intent intent = new Intent(MainActivity.this, CompassTool.class);
                 startActivity(intent);
             }
         });
-
 
     }
 }
