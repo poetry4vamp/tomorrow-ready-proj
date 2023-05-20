@@ -132,7 +132,7 @@
         app:iconSize="72dp" />
 
     <Button
-        android:id="@+id/btn_donation"
+        android:id="@+id/btn_compass"
         android:layout_width="180dp"
         android:layout_height="165dp"
         android:layout_alignParentStart="true"
@@ -146,7 +146,7 @@
         android:textSize="10dp"
         app:backgroundTint="#b70f0a"
         app:cornerRadius="20sp"
-        app:icon="@drawable/donation"
+        app:icon="@drawable/compassbtn"
         app:iconGravity="textTop"
         app:iconSize="72dp" />
 
